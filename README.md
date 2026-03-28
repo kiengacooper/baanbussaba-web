@@ -1,73 +1,30 @@
-# React + TypeScript + Vite
+# Baan Bussaba: Tropical Urban Oasis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Baan Bussaba is a luxury digital portal for a premium residential property that blends **Tropical Warmth** with an **Urban Oasis** aesthetic. This project aims to create a cinematic, high-performance web experience that captures the serene and sophisticated atmosphere of the physical property.
 
-Currently, two official plugins are available:
+## 🌿 Project Vision
+To provide potential residents and guests with an immersive digital journey through Baan Bussaba, utilizing modern web technologies to mirror the property's natural light, organic materials, and lush greenery.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Tech Stack
+- **Frontend**: Vite + React (TypeScript)
+- **Animations**: GSAP (`@gsap/react`) for cinematic motion
+- **Styling**: Tailwind CSS v4 (CSS Variable-first architecture)
+- **Hosting**: Firebase (GCP Free Tier)
+- **Agent Intelligence**: Antigravity with specialized Agent Skills (`premium-frontend-ui`, `web-coder`, `web-design-reviewer`)
 
-## React Compiler
+## 📂 Project Structure (Living Documentation)
+We maintain a robust `docs/` folder to ensure our human-agent partnership is always aligned. This is managed via the [.agents/workflows/living-doc-sync.md](.agents/workflows/living-doc-sync.md) process:
+- `docs/implementation_plan.md`: The high-level tactical roadmap.
+- `docs/product_plan.md`: The vision, audience, and core value proposition.
+- `docs/execution_log.md`: A historical record of decisions and milestones.
+- `docs/phase_tickets.md`: Granular task breakdowns.
+- `docs/design_system.md` (Coming Soon): Brand guidelines and UI tokens.
+- `docs/architecture.md` (Coming Soon): Technical patterns and conventions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
+1. **Environment**: Recommended using VS Code Dev Containers.
+2. **Setup**: `npm install` (Coming soon in Phase 2).
+3. **Run**: `npm run dev`.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+*Created with ❤️ by the Baan Bussaba Development Team (Human + AI)*
