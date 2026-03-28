@@ -1,0 +1,27 @@
+{
+  "name": "Baan Bussaba Web",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "updateRemoteUserUID": false,
+  "userEnvProbe": "none",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": {
+      "label": "Vite Dev Server",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "npm install -g npm@latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dsznajder.es7-react-js-snippets",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
