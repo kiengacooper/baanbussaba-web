@@ -22,25 +22,26 @@ const ContactSection: React.FC = () => {
     <section id="contact" ref={containerRef} className="py-24 px-8 bg-beige-100">
       <div className="max-w-4xl mx-auto text-center contact-reveal">
         <span className="text-xs uppercase tracking-[0.4em] text-mahogany-900/40 block mb-8">Ready for Discovery</span>
-        <h2 className="mb-10">Experience Baan Bussaba</h2>
+        <h2 className="mb-10 font-thai tracking-tight uppercase">ยินดีต้อนรับสู่บ้านบุษบา</h2>
         
-        <p className="text-mahogany-900/70 text-lg md:text-xl font-serif italic mb-12 max-w-2xl mx-auto">
-          For private viewings and architectural inquiries, please contact our estate manager directly via Phone or LINE.
+        <p className="text-mahogany-900/70 text-xl md:text-2xl font-thai font-light mb-12 max-w-3xl mx-auto leading-relaxed">
+          หากคุณกำลังมองหาที่พักอาศัยที่เงียบสงบและเป็นส่วนตัว <br className="hidden md:block"/>
+          เรายินดีให้ข้อมูลเพิ่มเติมและนัดหมายเพื่อเข้าชมโครงการ
         </p>
 
-        <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
-          <div className="flex flex-col gap-2">
-            <span className="text-[10px] uppercase tracking-widest text-mahogany-900/30 font-sans">Call Us</span>
-            <a href="tel:089XXXXXXX" className="text-2xl font-serif tracking-tight text-mahogany-900 hover:text-amber-500 transition-colors">
+        <div className="flex flex-col md:flex-row gap-12 justify-center items-center">
+          <div className="flex flex-col gap-3">
+            <span className="text-[10px] uppercase tracking-[0.3em] text-mahogany-900/30 font-sans font-semibold">Call Our Manager</span>
+            <a href="tel:089XXXXXXX" className="text-3xl font-serif tracking-tight text-mahogany-900 hover:text-amber-500 transition-colors">
               089-XXX-XXXX
             </a>
           </div>
           
-          <div className="w-px h-12 bg-mahogany-900/10 hidden md:block" />
+          <div className="w-px h-16 bg-mahogany-900/10 hidden md:block" />
 
-          <div className="flex flex-col gap-2">
-            <span className="text-[10px] uppercase tracking-widest text-mahogany-900/30 font-sans">Chat on LINE</span>
-            <a href="#" className="text-2xl font-serif tracking-tight text-mahogany-900 hover:text-amber-500 transition-colors">
+          <div className="flex flex-col gap-3">
+            <span className="text-[10px] uppercase tracking-[0.3em] text-mahogany-900/30 font-sans font-semibold">LINE Inquiry</span>
+            <a href="#" className="text-3xl font-serif tracking-tight text-mahogany-900 hover:text-amber-500 transition-colors">
               Add by Phone Number
             </a>
           </div>

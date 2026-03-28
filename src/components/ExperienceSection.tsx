@@ -47,33 +47,33 @@ const ExperienceSection: React.FC = () => {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-16">
             <div className="feature-card">
-              <div className="text-amber-500 mb-4">
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="text-amber-500 mb-6">
+                <svg className="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" />
                 </svg>
               </div>
-              <h4 className="text-white-50 mb-2 font-serif uppercase tracking-widest text-sm">High Speed WiFi</h4>
-              <p className="text-white-50/50 text-xs font-light font-thai">อินเทอร์เน็ตความเร็วสูง ครอบคลุมทุกพื้นที่พักอาศัย</p>
+              <h4 className="text-white-50 mb-3 font-serif uppercase tracking-widest text-base">High Speed WiFi</h4>
+              <p className="text-white-50/60 text-sm font-light font-thai">อินเทอร์เน็ตความเร็วสูง ครอบคลุมทุกพื้นที่พักอาศัย</p>
             </div>
 
             <div className="feature-card">
-              <div className="text-amber-500 mb-4">
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="text-amber-500 mb-6">
+                <svg className="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h4 className="text-white-50 mb-2 font-serif uppercase tracking-widest text-sm">CCTV Security</h4>
-              <p className="text-white-50/50 text-xs font-light font-thai">ระบบรักษาความปลอดภัย กล้องวงจรปิดรอบอาคาร เพื่อความอุ่นใจตลอด 24 ชม.</p>
+              <h4 className="text-white-50 mb-3 font-serif uppercase tracking-widest text-base">CCTV Security</h4>
+              <p className="text-white-50/60 text-sm font-light font-thai">ระบบรักษาความปลอดภัย กล้องวงจรปิดรอบอาคาร เพื่อความอุ่นใจตลอด 24 ชม.</p>
             </div>
 
             <div className="feature-card">
-              <div className="text-amber-500 mb-4">
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+              <div className="text-amber-500 mb-6 font-thai">
+                <svg className="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M5 10V7.914a1 1 0 01.293-.707l1.914-1.914A1 1 0 017.914 5H16.086a1 1 0 01.707.293l1.914 1.914a1 1 0 01.293.707V10M4 17h16a2 2 0 002-2V10a2 2 0 00-2-2H4a2 2 0 00-2 2v5a2 2 0 002 2zM9 17v1m6-1v1" />
                 </svg>
               </div>
-              <h4 className="text-white-50 mb-2 font-serif uppercase tracking-widest text-sm">Parking Space</h4>
-              <p className="text-white-50/50 text-xs font-light font-thai">ที่จอดรถยนต์และจักรยานยนต์ที่ปลอดภัยและสะดวกสบาย</p>
+              <h4 className="text-white-50 mb-3 font-serif uppercase tracking-widest text-base">Parking Space</h4>
+              <p className="text-white-50/60 text-sm font-light font-thai">ที่จอดรถยนต์และจักรยานยนต์ที่ปลอดภัยและสะดวกสบาย</p>
             </div>
 
             <div className="feature-card">

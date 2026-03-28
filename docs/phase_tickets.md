@@ -32,7 +32,10 @@ This document breaks down the high-level Implementation Plan into actionable "ti
 - [x] **T-6.3**: Create `.github/workflows/hosting-deploy.yml`.
 - [x] **T-6.4**: Final visual QA of the live site on custom domain.
 
-## 🎟 Phase 7: CMS Integration (Production)
-- [ ] **T-7.1**: Set up Sanity.io project and schemas for Baan Bussaba.
-- [ ] **T-7.2**: Install Sanity CLI and integrate GROQ queries into React.
-- [ ] **T-7.3**: Migrated all static data to Sanity Production Dashboard.
+## 🎟 Phase 10: Content Pivot & Localization (V2)
+- [x] **T-10.1**: Inject Thai Fonts (Sarabun) and localize page title.
+- [x] **T-10.2**: Generate non-pool imagery (Small Garden, Modern Room).
+- [x] **T-10.3**: Build `RoomSection.tsx` with hybrid descriptions.
+- [x] **T-10.4**: Create `ExperienceSection.tsx` (WiFi, CCTV, Parking, Garden).
+- [x] **T-10.5**: Build `LocationSection.tsx` (Seacon, Suan Luang, MRT, GMaps).
+- [x] **T-10.6**: Final sync and remove legacy "Amenities" components.
