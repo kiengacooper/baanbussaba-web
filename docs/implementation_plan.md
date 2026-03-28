@@ -40,7 +40,10 @@ The architecture uses Vite + React (TypeScript), TailwindCSS, GSAP, and Firebase
 ### Phase 6: Hosting & Launch
 - Set up Firebase Hosting (GCP Spark Plan) and link the custom domain.
 - Automate deployment using GitHub Actions and `firebase-tools`.
-- Perform a final visual audit on the production URL across devices.
+
+### Phase 7: CMS Integration (Sanity.io)
+- Post-MVP: Integrate Sanity.io Headless CMS for non-technical content management.
+- Provide a luxurious Back Office for the user to update text and photos.
 
 ---
 

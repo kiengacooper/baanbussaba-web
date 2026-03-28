@@ -22,7 +22,8 @@
 - **Custom Domain**: Supported with automatic SSL.
 - **CI/CD Strategy**: GitHub Actions for automated deployment to Firebase Hosting via `firebase-tools`.
 
-### 🚩 Git Versioning & Tagging
-- **Branching Strategy**: Single-trunk (`master`) for this initial development phase.
-- **Commit Pattern**: [Conventional Commits](https://www.conventionalcommits.org/) (feat, fix, docs, chore).
-- **Tagging Strategy**: Use semantic tags at the end of every Phase (see `.agents/workflows/git-milestone.md`).
+### ☁️ Hosting & CMS strategy 
+- **Hosting**: Firebase Hosting (GCP Spark Plan).
+- **MVP Content (Option A)**: Hardcoded in `src/data/content.json` for zero-latency and simplicity.
+- **Production Content (Option B)**: Integration with **Sanity.io** (Headless CMS) to provide a luxurious back-office dashboard for non-technical management.
+- **CI/CD Strategy**: GitHub Actions for automated deployment to Firebase Hosting.

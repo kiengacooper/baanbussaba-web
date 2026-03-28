@@ -10,8 +10,10 @@ This is a chronological record of all significant technical decisions and milest
   - `web-design-reviewer`: For automated UX/UI QA.
 - **Implementation Planning**: Created `docs/implementation_plan.md` to serve as the project's tactical roadmap.
 - **Hosting & Quota Management**: Decided on Firebase Hosting (Spark Plan) with a 10 GB bandwidth budget.
+- **Content Strategy**: Chose Option A (Static/Local) for MVP and Option B (Sanity.io) for Production/Post-Launch.
 - **Living Documentation**: Initialized `README.md`, `product_plan.md`, `design_system.md`, `architecture.md`, and `phase_tickets.md`.
 - **Phase 1 Completion**: Configured `.devcontainer.json` with `firebase-tools` and installed CLI v15.12.0.
 - **Phase 2 Completion**: Scaffolded Vite + React (TypeScript) and removed default boilerplate.
 - **Phase 3 Completion**: Installed Tailwind v4, GSAP, and integrated path aliases in config files.
+- **Phase 4 Completion**: Implemented "Tropical Warmth" design system (palette + typography) using Tailwind v4 CSS variables and Google Fonts.
 - **Version Control**: Verified remote repository linkage to `kiengacooper/baanbussaba-web`.

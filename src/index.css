@@ -1,12 +1,54 @@
-/* 
-  Baan Bussaba Core Global Styles
-  (Variables will be added here in Phase 4) 
-*/
+@import "tailwindcss";
 
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  background-color: #f7f5f0; /* Temporary pale background */
+@theme {
+  /* Tropical Warmth Palette */
+  --color-beige-100: #f7f5f0;
+  --color-white-50: #ffffff;
+  --color-mahogany-900: #2d1e17;
+  --color-moss-700: #3a4d39;
+  --color-amber-500: #d4a373;
+
+  /* Typography */
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-beige-100);
+    color: var(--color-mahogany-900);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    margin: 0;
+  }
+
+  /* Fluid Typography Scale */
+  h1 { font-size: clamp(2.5rem, 8vw, 5rem); line-height: 1.1; }
+  h2 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.2; }
+  p { font-size: clamp(1rem, 1.2vw, 1.25rem); line-height: 1.6; }
+}
+
+@layer components {
+  .btn-primary {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--color-mahogany-900);
+    color: var(--color-white-50);
+    font-family: var(--font-serif);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--color-amber-500);
+    transform: translateY(-2px);
+  }
 }
