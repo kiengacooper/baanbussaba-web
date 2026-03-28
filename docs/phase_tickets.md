@@ -23,13 +23,14 @@ This document breaks down the high-level Implementation Plan into actionable "ti
 - [x] **T-4.3**: Set up basic typography scale (Fluid typography for luxury feel).
 
 ## 🎟 Phase 5: Homepage Core & Hero
-- [ ] **T-5.1**: Create `<Layout />` with `<Navbar />` (Glassmorphism effect).
-- [ ] **T-5.2**: Build `<Hero />` component with a placeholder luxury image/video.
+- [x] **T-5.1**: Create `<Layout />` with `<Navbar />` (Glassmorphism effect).
+- [x] **T-5.2**: Build `<Hero />` component with a placeholder luxury image/video.
+- [x] **T-5.3**: Implement GSAP "Fade-In & Slide" animations for Hero text.
 ## 🎟 Phase 6: Hosting & Launch
-- [ ] **T-6.1**: Initialize Firebase via `firebase init`.
-- [ ] **T-6.2**: Configure GitHub Actions secret `FIREBASE_SERVICE_ACCOUNT`.
-- [ ] **T-6.3**: Create `.github/workflows/hosting-deploy.yml`.
-- [ ] **T-6.4**: Final visual QA of the live site on custom domain.
+- [x] **T-6.1**: Initialize Firebase via `firebase init`.
+- [x] **T-6.2**: Configure GitHub Actions secret `FIREBASE_SERVICE_ACCOUNT`.
+- [x] **T-6.3**: Create `.github/workflows/hosting-deploy.yml`.
+- [x] **T-6.4**: Final visual QA of the live site on custom domain.
 
 ## 🎟 Phase 7: CMS Integration (Production)
 - [ ] **T-7.1**: Set up Sanity.io project and schemas for Baan Bussaba.

@@ -17,4 +17,5 @@ This is a chronological record of all significant technical decisions and milest
 - **Phase 3 Completion**: Installed Tailwind v4, GSAP, and integrated path aliases in config files.
 - **Phase 4 Completion**: Implemented "Tropical Warmth" design system (palette + typography) using Tailwind v4 CSS variables and Google Fonts.
 - **Phase 5 Completion**: Developed a cinematic Homepage with a GSAP-animated Hero section, Glassmorphism Navbar, and high-end AI-generated architectural imagery.
+- **Phase 6 Completion**: Successfully launched the site to Firebase Hosting and established the CI/CD pipeline via GitHub Actions.
 - **Version Control**: Verified remote repository linkage to `kiengacooper/baanbussaba-web`.
