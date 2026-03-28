@@ -19,10 +19,10 @@ const ContactSection: React.FC = () => {
   }, { scope: containerRef });
 
   return (
-    <section id="contact" ref={containerRef} className="py-24 px-8 bg-beige-100">
+    <section id="contact" ref={containerRef} className="py-24 px-8 bg-beige-100 border-t border-mahogany-900/5">
       <div className="max-w-4xl mx-auto text-center contact-reveal">
         <span className="text-xs uppercase tracking-[0.4em] text-mahogany-900/40 block mb-8">Ready for Discovery</span>
-        <h2 className="mb-10 font-thai tracking-tight uppercase">ยินดีต้อนรับสู่บ้านบุษบา</h2>
+        <h2 className="mb-10 font-thai tracking-tight uppercase">สัมผัสความสุขที่เรียบง่าย... ที่บ้านบุษบา</h2>
         
         <p className="text-mahogany-900/70 text-xl md:text-2xl font-thai font-light mb-12 max-w-3xl mx-auto leading-relaxed">
           หากคุณกำลังมองหาที่พักอาศัยที่เงียบสงบและเป็นส่วนตัว <br className="hidden md:block"/>

@@ -69,7 +69,9 @@ const ExperienceSection: React.FC = () => {
             <div className="feature-card">
               <div className="text-amber-500 mb-6 font-thai">
                 <svg className="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M5 10V7.914a1 1 0 01.293-.707l1.914-1.914A1 1 0 017.914 5H16.086a1 1 0 01.707.293l1.914 1.914a1 1 0 01.293.707V10M4 17h16a2 2 0 002-2V10a2 2 0 00-2-2H4a2 2 0 00-2 2v5a2 2 0 002 2zM9 17v1m6-1v1" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M16 11h2.5L19 14h1.5a1.5 1.5 0 011.5 1.5V17a1 1 0 01-1 1h-1.04a2 2 0 01-3.92 0H8.46a2 2 0 01-3.92 0H3a1 1 0 01-1-1v-1.5A1.5 1.5 0 013.5 14H5l.5-3H8m8 0l-.5-3H8.5L8 11m8 0H8" />
+                  <circle cx="6.5" cy="18" r="1.5" strokeWidth="1.5" />
+                  <circle cx="16.5" cy="18" r="1.5" strokeWidth="1.5" />
                 </svg>
               </div>
               <h4 className="text-white-50 mb-3 font-serif uppercase tracking-widest text-base">Parking Space</h4>

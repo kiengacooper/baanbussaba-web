@@ -35,7 +35,7 @@ const LocationSection: React.FC = () => {
                 </li>
                 <li className="flex gap-4 items-center">
                   <span className="w-1.5 h-1.5 bg-amber-500 rounded-full" />
-                  พักผ่อนคลายในพื้นที่สีเขียวที่ สวนหลวง ร.9
+                  พักผ่อนคลายในพื้นที่สีเขียวที่ สวนหลวง ร.9 เพียง 15 นาที
                 </li>
                 <li className="flex gap-4 items-center">
                   <span className="w-1.5 h-1.5 bg-amber-500 rounded-full" />
@@ -47,7 +47,7 @@ const LocationSection: React.FC = () => {
             <div>
               <h4 className="text-sm uppercase tracking-widest text-mahogany-900 mb-4 opacity-50 font-sans">Formal Address</h4>
               <p className="font-thai text-mahogany-900/70 text-base leading-relaxed">
-                14 ซอยศรีนครินทร์ 24 แขวงสวนหลวง เขตสวนหลวง กรุงเทพมหานคร 10250<br/>
+                14 ซอยศรีนครินทร์ 24 แขวงสวนหลวง เขตสวนหลวง กรุงเทพมหานคร 10250<br />
                 <span className="text-xs font-sans tracking-wide opacity-50 italic">
                   14 Soi Srinagarindra 24, Khwaeng Suan Luang, Khet Suan Luang, Bangkok 10250
                 </span>
