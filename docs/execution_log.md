@@ -12,4 +12,5 @@ This is a chronological record of all significant technical decisions and milest
 - **Hosting & Quota Management**: Decided on Firebase Hosting (Spark Plan) with a 10 GB bandwidth budget.
 - **Living Documentation**: Initialized `README.md`, `product_plan.md`, `design_system.md`, `architecture.md`, and `phase_tickets.md`.
 - **Phase 1 Completion**: Configured `.devcontainer.json` with `firebase-tools` and installed CLI v15.12.0.
+- **Phase 2 Completion**: Scaffolded Vite + React (TypeScript) and removed default boilerplate.
 - **Version Control**: Verified remote repository linkage to `kiengacooper/baanbussaba-web`.

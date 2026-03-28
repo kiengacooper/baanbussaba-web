@@ -8,9 +8,9 @@ This document breaks down the high-level Implementation Plan into actionable "ti
 - [x] **T-1.3**: Trigger a container rebuild and verify `firebase --version`.
 
 ## 🎟 Phase 2: React + Vite Scaffolding
-- [ ] **T-2.1**: Initialize Vite React-TS project in root.
-- [ ] **T-2.2**: Delete `App.css`, `index.css` (initial content), and generic Vite assets.
-- [ ] **T-2.3**: Verify `npm run dev` launches a clean blank page.
+- [x] **T-2.1**: Initialize Vite React-TS project in root.
+- [x] **T-2.2**: Delete `App.css`, `index.css` (initial content), and generic Vite assets.
+- [x] **T-2.3**: Verify `npm run dev` launches a clean blank page.
 
 ## 🎟 Phase 3: Dependencies & Configuration
 - [ ] **T-3.1**: Install Tailwind CSS v4 and `@tailwindcss/vite`.

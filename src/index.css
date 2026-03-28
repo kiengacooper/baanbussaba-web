@@ -1,0 +1,12 @@
+/* 
+  Baan Bussaba Core Global Styles
+  (Variables will be added here in Phase 4) 
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #f7f5f0; /* Temporary pale background */
+}
