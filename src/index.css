@@ -8,8 +8,8 @@
   --color-moss-700: #3a4d39;
   --color-amber-500: #d4a373;
 
-  /* Typography Option A */
-  --font-serif: "Playfair Display", serif;
+  /* Typography Refinement */
+  --font-serif: "Lora", serif;
   --font-sans: "Montserrat", sans-serif;
   --font-thai: "Sarabun", sans-serif;
 }

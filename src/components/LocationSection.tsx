@@ -45,16 +45,6 @@ const LocationSection: React.FC = () => {
             </div>
 
             <div>
-              <h4 className="text-sm uppercase tracking-widest text-mahogany-900 mb-4 opacity-50 font-sans">Formal Address</h4>
-              <p className="font-thai text-mahogany-900/70 text-base leading-relaxed">
-                14 ซอยศรีนครินทร์ 24 แขวงสวนหลวง เขตสวนหลวง กรุงเทพมหานคร 10250<br />
-                <span className="text-xs font-sans tracking-wide opacity-50 italic">
-                  14 Soi Srinagarindra 24, Khwaeng Suan Luang, Khet Suan Luang, Bangkok 10250
-                </span>
-              </p>
-            </div>
-
-            <div>
               <h4 className="text-sm uppercase tracking-widest text-mahogany-900 mb-4 opacity-50 font-sans">Transportation</h4>
               <ul className="space-y-4 font-thai text-mahogany-900/80 text-lg">
                 <li className="flex gap-4 items-center">
@@ -66,6 +56,16 @@ const LocationSection: React.FC = () => {
                   เชื่อมต่อ Airport Rail Link สู่ใจกลางเมืองและสุวรรณภูมิ
                 </li>
               </ul>
+            </div>
+
+            <div>
+              <h4 className="text-sm uppercase tracking-widest text-mahogany-900 mb-4 opacity-50 font-sans">Formal Address</h4>
+              <p className="font-thai text-mahogany-900/70 text-base leading-relaxed">
+                14 ซอยศรีนครินทร์ 24 แขวงสวนหลวง เขตสวนหลวง กรุงเทพมหานคร 10250<br/>
+                <span className="text-xs font-sans tracking-wide opacity-50 italic">
+                  14 Soi Srinagarindra 24, Khwaeng Suan Luang, Khet Suan Luang, Bangkok 10250
+                </span>
+              </p>
             </div>
           </div>
         </div>
