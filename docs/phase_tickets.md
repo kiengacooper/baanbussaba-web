@@ -42,9 +42,9 @@ This document breaks down the high-level Implementation Plan into actionable "ti
 - [x] **T-10.7**: Interaction Refinement (Lenis Glide + Mobile Menu).
 
 ## 🎟 Phase 11: Launch Mastery (SEO & Socials)
-- [ ] **T-11.1**: Custom Favicon & Web Manifest.
-- [ ] **T-11.2**: SEO Meta Tags (Title/Description/Keywords).
-- [ ] **T-11.3**: Open Graph (OG) Tags for LINE/Facebook previews.
+- [x] **T-11.1**: Custom Favicon & Web Manifest.
+- [x] **T-11.2**: SEO Meta Tags (Title/Description/Keywords).
+- [x] **T-11.3**: Open Graph (OG) Tags for LINE/Facebook previews.
 
 ## 🎟 Phase 12: Production QA & Content Audit
 - [ ] **T-12.1**: Replace Placeholder Phone Number & LINE integration.
