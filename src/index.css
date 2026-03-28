@@ -8,31 +8,33 @@
   --color-moss-700: #3a4d39;
   --color-amber-500: #d4a373;
 
-  /* Typography */
-  --font-serif: "Cormorant Garamond", serif;
-  --font-sans: "Inter", sans-serif;
+  /* Typography Option A */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+  --font-thai: "Sarabun", sans-serif;
 }
 
 @layer base {
   html, body {
     margin: 0;
     padding: 0;
-    background-color: var(--color-beige-100);
+    background-color: var(--color-white-50);
     color: var(--color-mahogany-900);
-    font-family: var(--font-sans);
+    font-family: var(--font-thai);
+    font-weight: 300;
     -webkit-font-smoothing: antialiased;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-serif);
-    font-weight: 400;
+    font-weight: 600;
     margin: 0;
   }
 
   /* Fluid Typography Scale */
   h1 { font-size: clamp(2.5rem, 8vw, 5rem); line-height: 1.1; }
   h2 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.2; }
-  p { font-size: clamp(1rem, 1.2vw, 1.25rem); line-height: 1.6; }
+  p { font-size: clamp(1rem, 1.2vw, 1.15rem); line-height: 1.6; }
 }
 
 @layer components {

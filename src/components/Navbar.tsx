@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-8 py-6 bg-beige-100/10 backdrop-blur-md border-b border-mahogany-900/5">
+    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-8 h-20 bg-white border-b border-mahogany-900/5 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07)]">
       <div className="text-mahogany-900 font-serif text-2xl tracking-tight">
         Baan Bussaba
       </div>
