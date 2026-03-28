@@ -39,3 +39,13 @@ This document breaks down the high-level Implementation Plan into actionable "ti
 - [x] **T-10.4**: Create `ExperienceSection.tsx` (WiFi, CCTV, Parking, Garden).
 - [x] **T-10.5**: Build `LocationSection.tsx` (Seacon, Suan Luang, MRT, GMaps).
 - [x] **T-10.6**: Final sync and remove legacy "Amenities" components.
+- [x] **T-10.7**: Interaction Refinement (Lenis Glide + Mobile Menu).
+
+## 🎟 Phase 11: Launch Mastery (SEO & Socials)
+- [ ] **T-11.1**: Custom Favicon & Web Manifest.
+- [ ] **T-11.2**: SEO Meta Tags (Title/Description/Keywords).
+- [ ] **T-11.3**: Open Graph (OG) Tags for LINE/Facebook previews.
+
+## 🎟 Phase 12: Production QA & Content Audit
+- [ ] **T-12.1**: Replace Placeholder Phone Number & LINE integration.
+- [ ] **T-12.2**: Cross-device visual audit (iOS/Android).

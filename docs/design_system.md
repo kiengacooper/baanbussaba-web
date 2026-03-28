@@ -11,14 +11,19 @@ Our palette is derived from the real property photography to ensure authenticity
 | **Secondary Accent** | `--color-moss-700` | Lush Botanical Green (central garden greenery) |
 | **Highlights** | `--color-amber-500` | Warm Terracotta/Amber (sunlit stones and furniture) |
 
-## 🖋️ Typography Scale
-We use a blend of Serif (luxury) and Sans-Serif (readability) fonts.
+## 🖋️ Typography Scale (Phase 10.7 Refinement)
+We use an "International Hybrid" strategy:
+- **Headings (H1, H2, H3)**: `Lora` (Classic, organic, serene Serif).
+- **English Body/Details**: `Montserrat` (Clean, geometric Sans-Serif).
+- **Thai Body/Details**: `Sarabun` (Modern, readable Thai Sans-Serif).
+- **Scale Strategy**: Fluid Typography (Clamp) for dramatic desktop views and thumb-friendly mobile reading.
 
-- **Headings (H1, H2, H3)**: `Cormorant Garamond` (Elegant Serif).
-- **Body Copy**: `Inter` or `Outfit` (Modern Sans-Serif).
-- **Scale Strategy**: Use "Fluid Typography" (Clamp) to ensure a dramatic look on all screens.
+## 💎 UI Elevation Tokens
+- **Navbar**: Solid white (`bg-white`) with high-legibility mahogany text and a premium drop shadow (`shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07)]`).
+- **Interactive Map**: Grayscale-to-Color transition on hover (Contrast 125%).
+- **Mobile Menu**: Full-screen white overlay with cinematic slide entry (`translate-y`).
 
-## 🎬 Motion Principles (GSAP)
+## 🎬 Motion Principles (GSAP & Lenis)
+- **Scrolling**: Cinematic momentum (Lenis duration 1.5s) with a power4-inspired ease.
 - **Entrance**: Subtle "Reveal from Bottom" with a `power3.out` ease.
-- **Scroll**: Parallax effects on high-quality architectural imagery.
-- **Timing**: Stay between `0.8s` and `1.2s` for a "serene" rather than "fast" feel.
+- **Navigation**: Programmatic glide triggered by navbar clicks to ensure no "jumpy" jumps.

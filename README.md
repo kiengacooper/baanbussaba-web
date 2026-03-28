@@ -15,11 +15,10 @@ To provide potential residents and guests with an immersive digital journey thro
 ## 📂 Project Structure (Living Documentation)
 We maintain a robust `docs/` folder to ensure our human-agent partnership is always aligned. This is managed via the [.agents/workflows/living-doc-sync.md](.agents/workflows/living-doc-sync.md) process:
 - `docs/implementation_plan.md`: The high-level tactical roadmap.
-- `docs/product_plan.md`: The vision, audience, and core value proposition.
 - `docs/execution_log.md`: A historical record of decisions and milestones.
 - `docs/phase_tickets.md`: Granular task breakdowns.
-- `docs/design_system.md` (Coming Soon): Brand guidelines and UI tokens.
-- `docs/architecture.md` (Coming Soon): Technical patterns and conventions.
+- `docs/design_system.md`: Brand guidelines, typography choices, and UI tokens.
+- `docs/architecture.md`: Technical patterns, Lenis integration, and conventions.
 
 ## 🚀 Getting Started
 1. **Environment**: Recommended using VS Code Dev Containers.

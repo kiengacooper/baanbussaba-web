@@ -19,3 +19,10 @@ This is a chronological record of all significant technical decisions and milest
 - **Phase 5 Completion**: Developed a cinematic Homepage with a GSAP-animated Hero section, Glassmorphism Navbar, and high-end AI-generated architectural imagery.
 - **Phase 6 Completion**: Successfully launched the site to Firebase Hosting and established the CI/CD pipeline via GitHub Actions.
 - **Version Control**: Verified remote repository linkage to `kiengacooper/baanbussaba-web`.
+
+### 📅 2026-03-28: The Great Pivot (V2 Launch Ready)
+- **Content Pivot Completion**: Successfully removed non-existent amenities (pool/gym) and replaced them with an honest high-end garden and residence showcase.
+- **Localization Strategy**: Settled on "International Hybrid" (English heads / Thai body) using Sarabun + Lora + Montserrat.
+- **Cinematic Interaction**: Integrated **Lenis Smooth Scroll** and synchronized it with the Global Navbar for a "weighted" luxury glide.
+- **Property Accuracy**: Hardcoded the formal Suan Luang address and verified the exact Google Maps coordinates (13.7215, 100.6412).
+- **Interactive Polish**: Built a functional mobile slide-out menu and polished the "Parking Space" car icons and hospitality catchphrases.
