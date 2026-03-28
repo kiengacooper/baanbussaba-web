@@ -20,6 +20,9 @@ function App() {
       smoothWheel: true,
     });
 
+    // Share lenis globally for Navbar access
+    (window as any).lenis = lenis;
+
     lenis.on('scroll', ScrollTrigger.update);
 
     gsap.ticker.add((time) => {
