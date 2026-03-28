@@ -13,4 +13,5 @@ This is a chronological record of all significant technical decisions and milest
 - **Living Documentation**: Initialized `README.md`, `product_plan.md`, `design_system.md`, `architecture.md`, and `phase_tickets.md`.
 - **Phase 1 Completion**: Configured `.devcontainer.json` with `firebase-tools` and installed CLI v15.12.0.
 - **Phase 2 Completion**: Scaffolded Vite + React (TypeScript) and removed default boilerplate.
+- **Phase 3 Completion**: Installed Tailwind v4, GSAP, and integrated path aliases in config files.
 - **Version Control**: Verified remote repository linkage to `kiengacooper/baanbussaba-web`.

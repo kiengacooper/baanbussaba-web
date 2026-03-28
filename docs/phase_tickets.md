@@ -13,9 +13,9 @@ This document breaks down the high-level Implementation Plan into actionable "ti
 - [x] **T-2.3**: Verify `npm run dev` launches a clean blank page.
 
 ## 🎟 Phase 3: Dependencies & Configuration
-- [ ] **T-3.1**: Install Tailwind CSS v4 and `@tailwindcss/vite`.
-- [ ] **T-3.2**: Install GSAP and `@gsap/react`.
-- [ ] **T-3.3**: Configure `vite.config.ts` for Tailwind v4 and path aliases (`@/`).
+- [x] **T-3.1**: Install Tailwind CSS v4 and `@tailwindcss/vite`.
+- [x] **T-3.2**: Install GSAP and `@gsap/react`.
+- [x] **T-3.3**: Configure `vite.config.ts` for Tailwind v4 and path aliases (`@/`).
 
 ## 🎟 Phase 4: Core Global Styles
 - [ ] **T-4.1**: Define CSS variables in `src/index.css` for the "Tropical Warmth" palette.
