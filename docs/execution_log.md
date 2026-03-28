@@ -9,5 +9,7 @@ This is a chronological record of all significant technical decisions and milest
   - `web-coder`: For staff-level web engineering expertise.
   - `web-design-reviewer`: For automated UX/UI QA.
 - **Implementation Planning**: Created `docs/implementation_plan.md` to serve as the project's tactical roadmap.
-- **Living Documentation**: Initialized `README.md`, `product_plan.md`, and `phase_tickets.md` to ensure project transparency.
+- **Hosting & Quota Management**: Decided on Firebase Hosting (Spark Plan) with a 10 GB bandwidth budget.
+- **Living Documentation**: Initialized `README.md`, `product_plan.md`, `design_system.md`, `architecture.md`, and `phase_tickets.md`.
+- **Phase 1 Completion**: Configured `.devcontainer.json` with `firebase-tools` and installed CLI v15.12.0.
 - **Version Control**: Verified remote repository linkage to `kiengacooper/baanbussaba-web`.

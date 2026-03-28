@@ -17,4 +17,12 @@
 
 ### ☁️ Hosting (Firebase)
 - **Provider**: Google Cloud Platform (Free Tier).
-- **CI/CD**: (TBD) GitHub Actions for automated deployment to Firebase Hosting.
+- **Plan**: Firebase Hosting **Spark (Free)**.
+- **Quota Limits**: 10 GB Storage, 10 GB/Month Bandwidth.
+- **Custom Domain**: Supported with automatic SSL.
+- **CI/CD Strategy**: GitHub Actions for automated deployment to Firebase Hosting via `firebase-tools`.
+
+### 🚩 Git Versioning & Tagging
+- **Branching Strategy**: Single-trunk (`master`) for this initial development phase.
+- **Commit Pattern**: [Conventional Commits](https://www.conventionalcommits.org/) (feat, fix, docs, chore).
+- **Tagging Strategy**: Use semantic tags at the end of every Phase (see `.agents/workflows/git-milestone.md`).

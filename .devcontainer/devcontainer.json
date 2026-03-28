@@ -13,7 +13,7 @@
       "onAutoForward": "notify"
     }
   },
-  "postCreateCommand": "npm install -g npm@latest",
+  "postCreateCommand": "npm install -g npm@latest firebase-tools && if [ -f package.json ]; then npm install; fi",
   "customizations": {
     "vscode": {
       "extensions": [

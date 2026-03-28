@@ -3,9 +3,9 @@
 This document breaks down the high-level Implementation Plan into actionable "tickets" for the team.
 
 ## 🎟 Phase 1: Dev Container Refinement
-- [ ] **T-1.1**: Add `firebase-tools` to `.devcontainer/devcontainer.json`.
-- [ ] **T-1.2**: Update `postCreateCommand` to ensure `npm install` and global tool setup is automated.
-- [ ] **T-1.3**: Trigger a container rebuild and verify `firebase --version`.
+- [x] **T-1.1**: Add `firebase-tools` to `.devcontainer/devcontainer.json`.
+- [x] **T-1.2**: Update `postCreateCommand` to ensure `npm install` and global tool setup is automated.
+- [x] **T-1.3**: Trigger a container rebuild and verify `firebase --version`.
 
 ## 🎟 Phase 2: React + Vite Scaffolding
 - [ ] **T-2.1**: Initialize Vite React-TS project in root.
@@ -25,4 +25,8 @@ This document breaks down the high-level Implementation Plan into actionable "ti
 ## 🎟 Phase 5: Homepage Core & Hero
 - [ ] **T-5.1**: Create `<Layout />` with `<Navbar />` (Glassmorphism effect).
 - [ ] **T-5.2**: Build `<Hero />` component with a placeholder luxury image/video.
-- [ ] **T-5.3**: Implement GSAP "Fade-In & Slide" animations for Hero text.
+## 🎟 Phase 6: Hosting & Launch
+- [ ] **T-6.1**: Initialize Firebase via `firebase init`.
+- [ ] **T-6.2**: Configure GitHub Actions secret `FIREBASE_SERVICE_ACCOUNT`.
+- [ ] **T-6.3**: Create `.github/workflows/hosting-deploy.yml`.
+- [ ] **T-6.4**: Final visual QA of the live site on custom domain.

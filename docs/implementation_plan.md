@@ -37,6 +37,11 @@ The architecture uses Vite + React (TypeScript), TailwindCSS, GSAP, and Firebase
 - Create a global `<Layout />` wrapper with a minimalistic Navigation bar.
 - Build the **Cinematic Hero Video/Image** layout. It will feature large, slow-pan imagery (such as the lush indoor courtyard or a warmly lit room), overlayed with bespoke typography that animates elegantly on scroll/load using GSAP `useGSAP` hooks. 
 
+### Phase 6: Hosting & Launch
+- Set up Firebase Hosting (GCP Spark Plan) and link the custom domain.
+- Automate deployment using GitHub Actions and `firebase-tools`.
+- Perform a final visual audit on the production URL across devices.
+
 ---
 
 ## Verification Plan
