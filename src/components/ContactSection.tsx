@@ -29,22 +29,11 @@ const ContactSection: React.FC = () => {
           เรายินดีให้ข้อมูลเพิ่มเติมและนัดหมายเพื่อเข้าชมโครงการ
         </p>
 
-        <div className="flex flex-col md:flex-row gap-12 justify-center items-center">
-          <div className="flex flex-col gap-3">
-            <span className="text-[10px] uppercase tracking-[0.3em] text-mahogany-900/30 font-sans font-semibold">Call Our Manager</span>
-            <a href="tel:089XXXXXXX" className="text-3xl font-serif tracking-tight text-mahogany-900 hover:text-amber-500 transition-colors">
-              089-XXX-XXXX
-            </a>
-          </div>
-          
-          <div className="w-px h-16 bg-mahogany-900/10 hidden md:block" />
-
-          <div className="flex flex-col gap-3">
-            <span className="text-[10px] uppercase tracking-[0.3em] text-mahogany-900/30 font-sans font-semibold">LINE Inquiry</span>
-            <a href="#" className="text-3xl font-serif tracking-tight text-mahogany-900 hover:text-amber-500 transition-colors">
-              Add by Phone Number
-            </a>
-          </div>
+        <div className="flex flex-col items-center justify-center gap-4">
+          <span className="text-[10px] uppercase tracking-[0.3em] text-mahogany-900/30 font-sans font-semibold">Call Our Manager</span>
+          <a href="tel:0892308825" className="text-4xl md:text-6xl font-serif tracking-tight text-mahogany-900 hover:text-amber-500 transition-all duration-500 transform hover:scale-105">
+            089-230-8825
+          </a>
         </div>
 
         <div className="mt-20 pt-16 border-t border-mahogany-900/5">
