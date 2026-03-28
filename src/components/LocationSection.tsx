@@ -72,13 +72,13 @@ const LocationSection: React.FC = () => {
 
         {/* Google Maps Embed */}
         <div className="w-full aspect-square md:aspect-video lg:aspect-square bg-mahogany-900/5 rounded-sm overflow-hidden border border-mahogany-900/10 grayscale contrast-125 hover:grayscale-0 transition-all duration-700">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.5414166258046!2d100.64831207590216!3d13.685651398864756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d61ef3395b00f%3A0xe5f99cc25624778!2zQmFhbiBCdXNzYWJhIChIQS1CQSkg4Lia4Liy4LiZ4Lia4Li44Liq4Liq4Liy4Lia4Liy!5e0!3m2!1sth!2sth!4v1711612000000!5m2!1sth!2sth"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen={true}
-            loading="lazy"
+          <iframe 
+            src="https://www.google.com/maps?q=13.721527533409319,100.64123842004312&z=17&output=embed" 
+            width="100%" 
+            height="100%" 
+            style={{ border: 0 }} 
+            allowFullScreen={true} 
+            loading="lazy" 
             referrerPolicy="no-referrer-when-downgrade"
           />
         </div>
