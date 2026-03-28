@@ -2,7 +2,9 @@ import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import EstateGrid from '@/components/EstateGrid';
-import AmenitiesGrid from '@/components/AmenitiesGrid';
+import RoomSection from '@/components/RoomSection';
+import ExperienceSection from '@/components/ExperienceSection';
+import LocationSection from '@/components/LocationSection';
 import ContactSection from '@/components/ContactSection';
 import Lenis from 'lenis';
 import gsap from 'gsap';
@@ -18,7 +20,6 @@ function App() {
       smoothWheel: true,
     });
 
-    // Synchronize Lenis with ScrollTrigger
     lenis.on('scroll', ScrollTrigger.update);
 
     gsap.ticker.add((time) => {
@@ -31,12 +32,15 @@ function App() {
       lenis.destroy();
     };
   }, []);
+
   return (
     <main className="bg-beige-100 min-h-screen">
       <Navbar />
       <Hero />
       <EstateGrid />
-      <AmenitiesGrid />
+      <RoomSection />
+      <ExperienceSection />
+      <LocationSection />
       <ContactSection />
     </main>
   )

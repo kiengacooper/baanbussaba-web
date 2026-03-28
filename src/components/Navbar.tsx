@@ -8,13 +8,18 @@ const Navbar: React.FC = () => {
       </div>
       
       <div className="hidden md:flex gap-12 items-center">
-        {['Estate', 'Amenities', 'Location', 'Contact'].map((item) => (
+        {[
+          { label: 'ห้องพัก', id: 'rooms' },
+          { label: 'สิ่งอำนวยความสะดวก', id: 'experience' },
+          { label: 'ทำเลที่ตั้ง', id: 'location' },
+          { label: 'ติดต่อเรา', id: 'contact' }
+        ].map((item) => (
           <a
-            key={item}
-            href={`#${item.toLowerCase()}`}
+            key={item.id}
+            href={`#${item.id}`}
             className="text-mahogany-900/80 hover:text-mahogany-900 font-sans text-sm uppercase tracking-widest transition-colors duration-300"
           >
-            {item}
+            {item.label}
           </a>
         ))}
       </div>

@@ -79,13 +79,13 @@ const Hero: React.FC = () => {
         </h1>
         <p 
           ref={subRef}
-          className="text-white-50/90 text-xl md:text-2xl font-serif italic mb-10 max-w-2xl mx-auto drop-shadow-lg"
+          className="text-white-50/90 text-xl md:text-2xl font-thai font-light mb-10 max-w-2xl mx-auto drop-shadow-lg"
         >
-          An elevated Urban Oasis designed for serene luxury and architectural harmony.
+          นิยามใหม่ของการอยู่อาศัยที่เงียบสงบในสวนส่วนตัว กลางย่านศรีนครินทร์
         </p>
         <div ref={btnRef}>
-          <a href="#estate" className="btn-primary !bg-white-50 !text-mahogany-900 hover:!bg-amber-500 hover:!text-white-50 border-none">
-            Experience the Sanctuary
+          <a href="#rooms" className="btn-primary !bg-white-50 !text-mahogany-900 hover:!bg-amber-500 hover:!text-white-50 border-none">
+            ชมห้องพัก
           </a>
         </div>
       </div>

@@ -50,10 +50,11 @@ const EstateGrid: React.FC = () => {
   return (
     <section id="estate" ref={containerRef} className="py-24 px-8 max-w-7xl mx-auto">
       <div className="text-center mb-16">
-        <h2 className="mb-4">Architectural Harmony</h2>
-        <p className="text-mahogany-900/60 max-w-2xl mx-auto font-light">
-          Baan Bussaba blends modern clean lines with the warmth of natural wood and stone, 
-          creating a living space that feels like an extension of the botanical garden.
+        <span className="text-xs uppercase tracking-[0.4em] text-mahogany-900/40 block mb-6">ARCHITECTURAL HARMONY</span>
+        <h2 className="mb-4">สถาปัตยกรรมที่ลงตัว</h2>
+        <p className="font-thai text-mahogany-900/60 max-w-2xl mx-auto font-light">
+          บ้านบุษบา ผสมผสานเส้นสายความร่วมสมัย เข้ากับความอบอุ่นของวัสดุไม้และหินธรรมชาติ 
+          สร้างพื้นที่ที่ดูโปร่งสบาย ราวกับเป็นส่วนหนึ่งของสวนโบทานิก
         </p>
       </div>
 
