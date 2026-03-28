@@ -12,9 +12,12 @@ const EstateGrid: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
+    // Parallax Grid Items
     const items = gsap.utils.toArray('.grid-item');
-    
-    items.forEach((item: any) => {
+    items.forEach((item: any, i: number) => {
+      const img = item.querySelector('img');
+      const speed = i % 2 === 0 ? -15 : 15; // Alternating editorial depth
+
       gsap.fromTo(item, 
         { opacity: 0, y: 50 },
         {
@@ -24,11 +27,23 @@ const EstateGrid: React.FC = () => {
           ease: 'power3.out',
           scrollTrigger: {
             trigger: item,
-            start: 'top 85%',
+            start: 'top 90%',
             toggleActions: 'play none none none',
           }
         }
       );
+
+      // Subtle Image Parallax inside tile
+      gsap.to(img, {
+        yPercent: speed,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: item,
+          start: 'top bottom',
+          end: 'bottom top',
+          scrub: true,
+        }
+      });
     });
   }, { scope: containerRef });
 

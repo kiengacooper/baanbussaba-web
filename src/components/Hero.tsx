@@ -42,6 +42,18 @@ const Hero: React.FC = () => {
       duration: 0.8,
     }, '-=0.6');
 
+    // Parallax Scroll
+    gsap.to(bgRef.current, {
+      yPercent: 30,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: containerRef.current,
+        start: 'top top',
+        end: 'bottom top',
+        scrub: true,
+      }
+    });
+
   }, { scope: containerRef });
 
   return (
